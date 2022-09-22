@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/drawable/burger.xml" value="0.146" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/drawable/main_icon.xml" value="0.1" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/drawable/topbackground.xml" value="0.166" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/fragment_clickable.xml" value="0.209375" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/fragment_like_image.xml" value="0.20520833333333333" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/fragment_picture.xml" value="0.209375" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/fragment_viewpager_item.xml" value="0.209375" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/header_item.xml" value="0.20833333333333334" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/menu_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/rv_item.xml" value="0.209375" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/layout/tab_item_view.xml" value="0.17074275362318841" />
+        <entry key="..\:/JetPackCompose lessons/Photo4k/app/src/main/res/menu/menu_items.xml" value="0.49373433583959897" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

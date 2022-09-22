@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.abdurashidov.photo4k.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_viewpagerItemFragment"
+            app:destination="@id/viewpagerItemFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_likeImageFragment"
+            app:destination="@id/likeImageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewpagerItemFragment"
+        android:name="com.abdurashidov.photo4k.fragments.ViewpagerItemFragment"
+        android:label="fragment_viewpager_item"
+        tools:layout="@layout/fragment_viewpager_item" >
+        <action
+            android:id="@+id/action_viewpagerItemFragment_to_pictureFragment"
+            app:destination="@id/pictureFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/pictureFragment"
+        android:name="com.abdurashidov.photo4k.fragments.PictureFragment"
+        android:label="fragment_picture"
+        tools:layout="@layout/fragment_picture" >
+        <action
+            android:id="@+id/action_pictureFragment_to_clickableFragment"
+            app:destination="@id/clickableFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/clickableFragment"
+        android:name="com.abdurashidov.photo4k.fragments.ClickableFragment"
+        android:label="fragment_clickable"
+        tools:layout="@layout/fragment_clickable" />
+    <fragment
+        android:id="@+id/likeImageFragment"
+        android:name="com.abdurashidov.photo4k.fragments.LikeImageFragment"
+        android:label="fragment_like_image"
+        tools:layout="@layout/fragment_like_image" >
+        <action
+            android:id="@+id/action_likeImageFragment_to_pictureFragment"
+            app:destination="@id/pictureFragment" />
+    </fragment>
+</navigation>
